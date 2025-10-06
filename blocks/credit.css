@@ -1,0 +1,13 @@
+.credit {
+  max-width: 100%;
+  color: #ffffff;
+  font-family: "Inter";
+  margin: 0;
+}
+.credit__text {
+  display: flex;
+  justify-content: center;
+}
+.credit__text-p {
+  margin: 64px 0 24px 0;
+}

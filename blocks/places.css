@@ -1,0 +1,312 @@
+.places {
+  width: 100%;
+  color: white;
+  font-family: "Inter";
+}
+.places__place {
+  max-width: 984px;
+  display: flex;
+  gap: 40px;
+  margin: 92px auto 0;
+}
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  height: 152px;
+  margin: 0;
+  padding: 0;
+}
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+  margin: 48px 0 48px;
+  padding: 0;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+.place__artist {
+  font-weight: 400;
+  color: #aaaaaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin: 85px 0 8px;
+}
+.place__artist-BEREA {
+  margin: 107px 0 8px;
+}
+
+.place__artist-editor {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0;
+}
+
+.place__paragraph-1 {
+  margin: 48px 0 0;
+  line-height: 163%;
+  font-size: 18px;
+  /*width: 484px;*/
+  width: 100%;
+  padding: 0;
+  letter-spacing: 0;
+}
+.place__paragraph-2 {
+  margin: 25px 0 0;
+  line-height: 163%;
+  font-size: 18px;
+  width: 100%;
+  padding: 0;
+  letter-spacing: 0;
+}
+.place__paragraph-3 {
+  margin: 25px 0 0;
+  line-height: 163%;
+  font-size: 18px;
+  width: 100%;
+  padding: 0;
+  letter-spacing: 0;
+}
+
+.place__frame {
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  width: 289px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.place__frame-content {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+.place__frame-320 {
+  display: none;
+}
+.place__artist-320 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    max-width: 720px;
+    display: flex;
+    gap: 28px;
+    margin: 88px auto 0;
+  }
+  .place__title {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+    height: 46px;
+    margin: 22px 0 0;
+    padding: 0;
+  }
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+    margin: 48px 0 48px;
+    padding: 0;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  .place__artist {
+    font-weight: 400;
+    color: #aaaaaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 0 0 8px;
+  }
+  .place__artist-BEREA {
+    margin: 0 0 8px;
+  }
+  .place__title-Berea {
+    margin: 0;
+  }
+  .place__artist-Burundi {
+    margin: 47px 0 8px;
+  }
+  .place__title-Burundi {
+    height: 92px;
+    margin-top: 0;
+  }
+  .place__title-metepec {
+    height: 92px;
+    margin-top: 0;
+  }
+
+  .place__artist-editor {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0;
+  }
+
+  .place__paragraph-1 {
+    margin: 48px 0 0;
+    line-height: 163%;
+    font-size: 18px;
+    /*width: 484px;*/
+    width: 100%;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .place__paragraph-2 {
+    margin: 25px 0 0;
+    line-height: 163%;
+    font-size: 18px;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .place__paragraph-3 {
+    margin: 25px 0 0;
+    line-height: 163%;
+    font-size: 18px;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 0;
+  }
+
+  .place__frame {
+    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    width: 289px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .place__frame-content {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+  }
+  .place__frame-320 {
+    display: none;
+  }
+
+  .place__paragraph-metepec {
+    margin: 20px 0 0;
+  }
+  .place__artist-320 {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places__place {
+    max-width: 320px;
+    margin: 62px auto 0;
+    display: block;
+  }
+  .place__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    margin: 22px auto 0;
+    padding: 0;
+    max-width: 288px;
+  }
+  .place__image {
+    max-width: 320px;
+    max-height: 320px;
+    margin: 30px 0 0;
+    padding: 0;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  .place__artist {
+    font-weight: 400;
+    max-width: 288px;
+    color: #aaaaaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 30px auto 8px;
+  }
+  .place__artist-BEREA {
+    margin: 30px auto 8px;
+  }
+  .place__title-Berea {
+    margin: 0 auto 0;
+  }
+  .place__artist-Burundi {
+    margin: 0 auto 8px;
+  }
+  .place__title-Burundi {
+    margin-top: 0;
+  }
+  .place__title-metepec {
+    height: 42px;
+    margin-top: 0;
+  }
+
+  .place__artist-editor {
+    margin: 0 auto 0;
+    max-width: 288px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0;
+  }
+
+  .place__paragraph-1 {
+    margin: 30px auto 0;
+    line-height: 163%;
+    font-size: 18px;
+    /*width: 484px;*/
+    max-width: 288px;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .place__paragraph-2 {
+    margin: 25px auto 0;
+    line-height: 163%;
+    font-size: 18px;
+    max-width: 288px;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .place__paragraph-3 {
+    margin: 25px auto 0;
+    line-height: 163%;
+    font-size: 18px;
+    max-width: 288px;
+    padding: 0;
+    letter-spacing: 0;
+  }
+
+  .place__frame {
+    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    width: 289px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 30px auto 0;
+  }
+
+  .place__frame-content {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+  }
+  .place__frame-more {
+    display: none;
+  }
+  .place__artist-320 {
+    display: block;
+  }
+}

@@ -93,6 +93,13 @@
   display: none;
 }
 
+.place__image-demo:hover {
+  filter: brightness(0.5);
+}
+.place__frame-demo:hover {
+  filter: brightness(0.75);
+}
+
 @media screen and (max-width: 768px) {
   .places__place {
     max-width: 720px;

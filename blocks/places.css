@@ -16,14 +16,14 @@
   margin: 0;
   padding: 0;
 }
-.place__image {
+.places__image {
   max-width: 460px;
   max-height: 460px;
   margin: 48px 0 48px;
   padding: 0;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
-.place__artist {
+.places__artist {
   font-weight: 400;
   color: #aaaaaa;
   font-size: 12px;
@@ -31,11 +31,11 @@
   line-height: 100%;
   margin: 85px 0 8px;
 }
-.place__artist-BEREA {
+.places__artist-BEREA {
   margin: 107px 0 8px;
 }
 
-.place__artist-editor {
+.places__artist-editor {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -44,7 +44,7 @@
   padding: 0;
 }
 
-.place__paragraph-1 {
+.places__paragraph-1 {
   margin: 48px 0 0;
   line-height: 163%;
   font-size: 18px;
@@ -53,7 +53,7 @@
   padding: 0;
   letter-spacing: 0;
 }
-.place__paragraph-2 {
+.places__paragraph-2 {
   margin: 25px 0 0;
   line-height: 163%;
   font-size: 18px;
@@ -61,7 +61,7 @@
   padding: 0;
   letter-spacing: 0;
 }
-.place__paragraph-3 {
+.places__paragraph-3 {
   margin: 25px 0 0;
   line-height: 163%;
   font-size: 18px;
@@ -70,7 +70,7 @@
   letter-spacing: 0;
 }
 
-.place__frame {
+.places__frame {
   background-image: linear-gradient(to right, #0278fe, #003a7b);
   width: 289px;
   height: 48px;
@@ -81,22 +81,22 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.place__frame-content {
+.places__frame-content {
   font-weight: 600;
   font-size: 18px;
   margin: 0;
 }
-.place__frame-320 {
+.places__frame-320 {
   display: none;
 }
-.place__artist-320 {
+.places__artist-320 {
   display: none;
 }
 
-.place__image-demo:hover {
+.places__image-demo:hover {
   filter: brightness(0.5);
 }
-.place__frame-demo:hover {
+.places__frame-demo:hover {
   filter: brightness(0.75);
 }
 
@@ -107,7 +107,7 @@
     gap: 28px;
     margin: 88px auto 0;
   }
-  .place__title {
+  .places__title {
     font-size: 42px;
     font-weight: 900;
     line-height: 46px;
@@ -115,14 +115,14 @@
     margin: 22px 0 0;
     padding: 0;
   }
-  .place__image {
+  .places__image {
     max-width: 340px;
     max-height: 340px;
     margin: 48px 0 48px;
     padding: 0;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   }
-  .place__artist {
+  .places__artist {
     font-weight: 400;
     color: #aaaaaa;
     font-size: 12px;
@@ -130,25 +130,25 @@
     line-height: 100%;
     margin: 0 0 8px;
   }
-  .place__artist-BEREA {
+  .places__artist-BEREA {
     margin: 0 0 8px;
   }
-  .place__title-Berea {
+  .places__title-Berea {
     margin: 0;
   }
-  .place__artist-Burundi {
+  .places__artist-Burundi {
     margin: 47px 0 8px;
   }
-  .place__title-Burundi {
+  .places__title-Burundi {
     height: 92px;
     margin-top: 0;
   }
-  .place__title-metepec {
+  .places__title-metepec {
     height: 92px;
     margin-top: 0;
   }
 
-  .place__artist-editor {
+  .places__artist-editor {
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -157,7 +157,7 @@
     padding: 0;
   }
 
-  .place__paragraph-1 {
+  .places__paragraph-1 {
     margin: 48px 0 0;
     line-height: 163%;
     font-size: 18px;
@@ -166,7 +166,7 @@
     padding: 0;
     letter-spacing: 0;
   }
-  .place__paragraph-2 {
+  .places__paragraph-2 {
     margin: 25px 0 0;
     line-height: 163%;
     font-size: 18px;
@@ -174,7 +174,7 @@
     padding: 0;
     letter-spacing: 0;
   }
-  .place__paragraph-3 {
+  .places__paragraph-3 {
     margin: 25px 0 0;
     line-height: 163%;
     font-size: 18px;
@@ -183,7 +183,7 @@
     letter-spacing: 0;
   }
 
-  .place__frame {
+  .places__frame {
     background-image: linear-gradient(to right, #0278fe, #003a7b);
     width: 289px;
     height: 48px;
@@ -194,19 +194,19 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   }
 
-  .place__frame-content {
+  .places__frame-content {
     font-weight: 600;
     font-size: 18px;
     margin: 0;
   }
-  .place__frame-320 {
+  .places__frame-320 {
     display: none;
   }
 
-  .place__paragraph-metepec {
+  .places__paragraph-metepec {
     margin: 20px 0 0;
   }
-  .place__artist-320 {
+  .places__artist-320 {
     display: none;
   }
 }
@@ -216,7 +216,7 @@
     margin: 62px auto 0;
     display: block;
   }
-  .place__title {
+  .places__title {
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
@@ -224,14 +224,14 @@
     padding: 0;
     max-width: 288px;
   }
-  .place__image {
+  .places__image {
     max-width: 320px;
     max-height: 320px;
     margin: 30px 0 0;
     padding: 0;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   }
-  .place__artist {
+  .places__artist {
     font-weight: 400;
     max-width: 288px;
     color: #aaaaaa;
@@ -240,24 +240,24 @@
     line-height: 100%;
     margin: 30px auto 8px;
   }
-  .place__artist-BEREA {
+  .places__artist-BEREA {
     margin: 30px auto 8px;
   }
-  .place__title-Berea {
+  .places__title-Berea {
     margin: 0 auto 0;
   }
-  .place__artist-Burundi {
+  .places__artist-Burundi {
     margin: 0 auto 8px;
   }
-  .place__title-Burundi {
+  .places__title-Burundi {
     margin-top: 0;
   }
-  .place__title-metepec {
+  .places__title-metepec {
     height: 42px;
     margin-top: 0;
   }
 
-  .place__artist-editor {
+  .places__artist-editor {
     margin: 0 auto 0;
     max-width: 288px;
     padding: 0;
@@ -267,7 +267,7 @@
     padding: 0;
   }
 
-  .place__paragraph-1 {
+  .places__paragraph-1 {
     margin: 30px auto 0;
     line-height: 163%;
     font-size: 18px;
@@ -276,7 +276,7 @@
     padding: 0;
     letter-spacing: 0;
   }
-  .place__paragraph-2 {
+  .places__paragraph-2 {
     margin: 25px auto 0;
     line-height: 163%;
     font-size: 18px;
@@ -284,7 +284,7 @@
     padding: 0;
     letter-spacing: 0;
   }
-  .place__paragraph-3 {
+  .places__paragraph-3 {
     margin: 25px auto 0;
     line-height: 163%;
     font-size: 18px;
@@ -293,7 +293,7 @@
     letter-spacing: 0;
   }
 
-  .place__frame {
+  .places__frame {
     background-image: linear-gradient(to right, #0278fe, #003a7b);
     width: 289px;
     height: 48px;
@@ -305,15 +305,15 @@
     margin: 30px auto 0;
   }
 
-  .place__frame-content {
+  .places__frame-content {
     font-weight: 600;
     font-size: 18px;
     margin: 0;
   }
-  .place__frame-more {
+  .places__frame-more {
     display: none;
   }
-  .place__artist-320 {
+  .places__artist-320 {
     display: block;
   }
 }
